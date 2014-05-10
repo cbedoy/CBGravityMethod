@@ -11,6 +11,15 @@
             android:name="com.cbedoy.gravitymethod.MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
+        <activity
+            android:name="com.cbedoy.gravitymethod.LauncherActivity"
+            android:label="@string/title_activity_launcher" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
